@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    nodeMiddleware: true,
-    runtime: 'edge',
-  },
+  // no runtime or experimental nodeMiddleware needed here
 };
 
 module.exports = nextConfig;
