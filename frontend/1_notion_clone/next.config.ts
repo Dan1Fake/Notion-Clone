@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // your usual config options here, no middleware setting needed
+  experimental: {
+    nodeMiddleware: true,  // keep this to enable Node.js middleware runtime
+  },
 };
 
 export default nextConfig;
