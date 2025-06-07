@@ -1,0 +1,110 @@
+# =========================
+# Node Modules and Packages
+# =========================
+node_modules/
+frontend/1_notion_clone/node_modules/
+backend/notion-clone-cloudflare-workers/cloudflare/node_modules/
+
+# ===============
+# Build Artifacts
+# ===============
+build/
+dist/
+out/
+frontend/1_notion_clone/.next/
+frontend/1_notion_clone/out/
+backend/notion-clone-cloudflare-workers/.next/
+backend/notion-clone-cloudflare-workers/out/
+backend/notion-clone-cloudflare-workers/build/
+
+# =====================
+# Cache and Temp Files
+# =====================
+.cache/
+.parcel-cache/
+.pnpm-debug.log*
+.pnp.*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ====================
+# Logs and Diagnostics
+# ====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# =============
+# Environment
+# =============
+.env
+.env.local
+.env.*.local
+.dev.vars
+service-key.json
+
+# =====================
+# Firebase & Vercel
+# =====================
+.vercel/
+.firebase/
+.firebase-admin/
+frontend/1_notion_clone/firebase.ts
+frontend/1_notion_clone/firebase-admin.ts
+
+# ======================
+# Wrangler (Cloudflare)
+# ======================
+.wrangler/
+backend/notion-clone-cloudflare-workers/cloudflare/.wrangler/
+backend/notion-clone-cloudflare-workers/cloudflare/.dev.vars
+
+# ======================
+# TypeScript Generated
+# ======================
+*.tsbuildinfo
+next-env.d.ts
+
+# =========================
+# Miscellaneous
+# =========================
+.DS_Store
+*.pem
+.vscode/
+backend/notion-clone-cloudflare-workers/cloudflare/.vscode/
+node_modules/
+bower_components/
+jspm_packages/
+web_modules/
+.lock-wscript
+*.tgz
+.node_repl_history
+.tern-port
+.vscode-test/
+
+# =============
+# Test & Tools
+# =============
+coverage/
+.nyc_output/
+.docusaurus/
+.grunt/
+.vuepress/dist/
+.temp/
+.fusebox/
+.dynamodb/
+
+# ==========================
+# Backend Large Type Decls
+# ==========================
+backend/notion-clone-cloudflare-workers/cloudflare/worker-configuration.d.ts
