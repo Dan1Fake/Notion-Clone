@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // your usual config options here, no middleware setting needed
 };
 
 export default nextConfig;
