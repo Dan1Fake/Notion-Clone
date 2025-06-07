@@ -58,10 +58,6 @@ service-key.json
 # =====================
 .vercel/
 
-.firebase-admin/
-
-frontend/1_notion_clone/firebase-admin.ts
-
 # ======================
 # Wrangler (Cloudflare)
 # ======================
