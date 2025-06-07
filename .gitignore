@@ -57,9 +57,9 @@ service-key.json
 # Firebase & Vercel
 # =====================
 .vercel/
-.firebase/
+
 .firebase-admin/
-frontend/1_notion_clone/firebase.ts
+
 frontend/1_notion_clone/firebase-admin.ts
 
 # ======================
