@@ -1,13 +1,10 @@
-// middleware.ts
-import { clerkMiddleware } from '@clerk/nextjs/server';
+import { clerkMiddleware } from '@clerk/nextjs/edge-middleware';
 
 export default clerkMiddleware();
 
 export const config = {
   matcher: [
-    // Run middleware on all routes except static files and Next.js internals
-    '/((?!_next|.*\\..*|favicon.ico).*)',
-    // Always run for API and tRPC routes
+    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
     '/(api|trpc)(.*)',
   ],
 };
