@@ -1,10 +1,10 @@
-import { clerkMiddleware } from "@clerk/nextjs/server";
+import { clerkEdgeMiddleware } from '@clerk/nextjs/edge-middleware';
 
-export default clerkMiddleware();
+export default clerkEdgeMiddleware();
 
 export const config = {
   matcher: [
-    '/((?!_next|.*\\..*).*)', // example matcher — adapt to your needs
-    '/api/:path*',
+    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
+    '/(api|trpc)(.*)',
   ],
 };
