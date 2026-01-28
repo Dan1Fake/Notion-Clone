@@ -11,5 +11,3 @@ A modern Notion-like web app built with powerful tools and integrations:
 📡 Realtime Collaboration – Collaborate with others in real-time using Liveblocks.
 
 🔥 Cloud Firestore – All documents and user data are stored and synced using Firebase's Firestore.
-
-This project demonstrates a powerful blend of collaborative editing, AI assistance, and modern authentication—all in one app.
